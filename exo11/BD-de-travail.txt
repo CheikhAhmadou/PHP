@@ -1,0 +1,51 @@
+Table Marque
+idM;nom;pays;latitude;longitude
+1;Peugeot;France;48.891944;2.173389
+2;Porsche;Allemagne;48.834744;9.151104
+3;Ferrari;Italie;44.5320039;10.8640228
+
+Table Carburant
+idC;nom
+1;essence
+2;diesel
+3;hybride
+4;électrique
+
+Table Voiture
+idV;idM;idC;nom;nbCV
+1;1;1;308;6
+2;1;2;308;5
+3;1;3;308;7
+4;1;4;Ion;1
+5;2;1;911;66
+6;3;1;166;140
+7;3;1;Testarossa;428
+8;3;1;Enzo;660
+
+Table Personne
+idP;nomP;prenomP
+1,'Enfaillite','Melusine'
+2;Assin;Marc
+3;Outemps;Laurent
+4;Allaisieubleut;Isabelle
+5;Zinpeut;Marion
+6;Ticheau;Gérard
+7;Manvud;Gérard
+8;Allavanillessiouplet;Douglas
+
+Table Achat
+idP;idV;idLieu
+3;1;1
+3;5;2
+3;8;3
+1;2;1
+2;7;3
+2;8;3
+7;8;3
+8;3;1
+
+Table Lieu
+idL;nomL;latL;longL
+1;Paris;48.8857888;2.3085129
+2;Bordeaux;44.7901088;-0.6507181
+3;Monaco;43.7341621;7.4172523
